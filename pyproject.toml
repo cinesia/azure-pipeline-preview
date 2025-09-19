@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "azpp"
+version = "0.1.0"
+description = "A tool to preview Azure Pipeline"
+authors = ["Andrea Cinesi <andrea.cinesi@prometeia.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+azpreview = "azpp.cli:app"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.15.1"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

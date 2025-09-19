@@ -1,0 +1,30 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Poetry virtual environment
+.venv/
+
+# Environment variables
+.env
+preview.env
+
+# Cache files
+*.cache
+*.log
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local configuration files
+.azpp
